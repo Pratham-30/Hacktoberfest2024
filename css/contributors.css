@@ -635,3 +635,22 @@ body {
   font-weight: 600;
   box-shadow: inset 120px 0 0 0 #fe0c43;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background: #423966;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black;
+  background: #423966;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e76898;
+  border-radius: 10px;
+}
